@@ -5,11 +5,20 @@ h1 {
 p {
     text-align: center;
     font-size: 15px;
+    padding: 10px;
 }
 
 div {
     margin: auto;
     width: 50%;
+}
+
+div p span{
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 img {
