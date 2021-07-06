@@ -3,14 +3,19 @@
   <head>
     <title>Dog Gifs</title>
     <link rel="stylesheet" href="style.css">
+    <script defer type ="text/javascript" src="shuffle.js"></script>
   </head>
   <body>
-    <h1>Just some casual dog gifs</h1>
-    <p>Welcome to my page, please enjoy these dog gifs and have a wonderful day.</p>
+    <h1><span>Just some casual dog gifs</span></h1>
+    <p><span>Welcome to my page, please enjoy these dog gifs and have a wonderful day.</span></p>
     <div>
       <img src="https://media.giphy.com/media/51Uiuy5QBZNkoF3b2Z/giphy.gif" alt="img" id="mainImg">
-      <script type ="text/javascript" src="shuffle.js"></script>
       <p><span>Click on image to scroll through more dog gifs</span></p>
+      <form id = "gif-form">
+        <label for = "name">Add a new gif here:</label>
+        <input type = "text" id = "image_url" name="image_url">
+        <input type="submit" value = "Add New GIF">
+      </form>
     </div>  
   </body>
 </html>

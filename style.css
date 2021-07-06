@@ -6,6 +6,7 @@ p {
     text-align: center;
     font-size: 15px;
     padding: 10px;
+    letter-spacing: 2px;
 }
 
 div {
@@ -25,4 +26,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+body {
+    background-image: url(https://img2.pngio.com/free-white-paw-print-transparent-background-download-free-clip-paw-print-background-png-1873_1053.png);
+    background-size: cover;
+}
+
+div form {
+    text-align: center;
 }

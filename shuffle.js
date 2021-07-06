@@ -36,7 +36,7 @@ const imageArray = [
 
 const num = imageArray.length;
 
-var count = 1
+let count = 1
 
 const input = document.getElementById('mainImg');
 
@@ -51,3 +51,13 @@ input.addEventListener('click', function(e){
     console.log(e.target.src)
 });
 
+document.querySelector('#gif-form').addEventListener('submit', (e) => {
+    e.preventDefault()
+    console.log(e)
+    console.log(e.target.image_url.value)
+        // imgSrc: e.target.title.image_url.value
+    let newGif = {
+        imgSrc : e.target.image_url.value
+    }
+    imageArray.push(newGif);
+})
